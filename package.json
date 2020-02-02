@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.3.0",
+    "@nuxtjs/bulma": "1.2.6",
+    "@nuxtjs/font-awesome": "1.0.4",
+    "nuxt": "2.11.0",
+    "reqlim": "^0.0.0",
+    "socket.io-client": "2.3.0"
+  },
+  "keywords": []
+}
